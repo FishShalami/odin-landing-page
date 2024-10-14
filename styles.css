@@ -45,6 +45,7 @@ h2 {
     flex-shrink: 0;
     margin-left: 200px;
     padding: 10px;
+    filter: invert(1);
 }
 
 .header-links {
@@ -167,6 +168,7 @@ h2 {
     padding: 30px 50px;
     color: inherit;
     display: flex;
+    gap: 30px;
 }
 
 .cta-header {
@@ -198,4 +200,10 @@ h2 {
     font-size: inherit;
     width: 150px;
     height: 40px;
+}
+
+.footer {
+    text-align: center;
+    
+    height: 8vh;
 }
